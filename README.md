@@ -1,6 +1,6 @@
 <p align="center">
   <a href="" rel="noopener">
- <img src="https://miro.medium.com/max/1068/1*6ske8WnmamYRCuSXZH7YoA.jpeg" alt="Project logo"></a>
+ <img src="https://img.icons8.com/color/144/000000/webflow.png" alt="Project logo"></a>
 </p>
 
 <h3 align="center">Torrens</h3>
