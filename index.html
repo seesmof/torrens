@@ -29,17 +29,13 @@
         body {
             font-family: 'Switzer', sans-serif;
         }
-
-        section:first-of-type {
-            height: calc(100vh - 64px);
-        }
     </style>
 
 </head>
 
 <body data-theme="light">
 
-    <!-- navbar -->
+    <!-- SEC navbar -->
     <div class="navbar flex justify-between items-center flex-row p-4 px-8">
 
         <a href="./index.html"
@@ -52,37 +48,39 @@
             class="uppercase text-black font-semibold text-[19px] duration-500 hover:text-gray-500">about</a>
 
     </div>
-    <!-- /navbar -->
+    <!-- /SEC navbar -->
 
-    <!-- hero -->
+    <!-- SEC hero -->
     <section class="bg-inherit p-8">
-        <h1 class="font-semibold text-9xl pt-[148px] leading-[1.05]">
+        <h1 class="lg:font-semibold font-bold text-5xl lg:text-9xl pt-[148px] leading-[1.05]">
             We stand out and <br>
             Build relationships with <br>
             People who wants to <br>
             Create unique brands.
         </h1>
 
-        <p class="text-[22px] pt-[60px]">
+        <p class="text-[22px] lg:pt-16 pt-8">
             A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I
             enjoy with my whole <br> heart. I am alone, and feel the charm of existence in this spot, which was created
             for
             the bliss of souls like mine.
         </p>
     </section>
-    <!-- /hero -->
+    <!-- /SEC hero -->
 
-    <!-- cards -->
+    <!-- SEC cards -->
     <section class="bg-inherit p-8">
-        <!-- card-one -->
+        <!-- SUBSEC card-one -->
         <a href="#">
-            <div class="duration-700 my-28 hover:scale-95 hover:text-gray-400 text-[32px]">
+            <div class="duration-700 my-16 lg:my-28 hover:scale-95 hover:text-gray-400 text-[32px]">
                 <img src="./images/card_one.jpg" class="h-full object-cover">
 
                 <div class="flex w-full justify-between pt-5 font-bold">
-                    <h2 class="w-1/2">Sidebay Studios</h2>
-                    <h2 class="w-1/2">Moverism</h2>
-                    <p class="font-normal w-2/3 text-3xl">
+                    <div class="flex-col flex lg:flex-row">
+                        <h2 class="lg:w-1/2 text-xl">Sidebay Studios</h2>
+                        <h2 class="lg:w-1/2 mt-1 lg:mt-0 text-xl font-semibold lg:font-bold">Moverism</h2>
+                    </div>
+                    <p class="font-normal text-lg ml-8 lg:w-2/3 lg:text-3xl">
                         Magni mollitia delectus quibusdam nemo sit rerum. Sint rerum asperiores ut cumque exercitationem
                         similique aut cupiditate rerum. Culpa alias facilis veritatis doloremque qui sit est. Voluptatem
                         reiciendis aut l
@@ -90,17 +88,19 @@
                 </div>
             </div>
         </a>
-        <!-- /card-one -->
+        <!-- /SUBSEC card-one -->
 
-        <!-- card-two -->
+        <!-- SUBSEC card-two -->
         <a href="#">
-            <div class="duration-700 my-28 hover:scale-95 hover:text-gray-400 text-[32px]">
+            <div class="duration-700 my-16 lg:my-28 hover:scale-95 hover:text-gray-400 text-[32px]">
                 <img src="./images/card_two.jpg" class="h-full object-cover">
 
                 <div class="flex w-full justify-between pt-5 font-bold">
-                    <h2 class="w-1/2">Enim Perferendis</h2>
-                    <h2 class="w-1/2">Sidebay Studios</h2>
-                    <p class="font-normal w-2/3 text-3xl">
+                    <div class="flex flex-col lg:flex-row">
+                        <h2 class="lg:w-1/2 text-xl">Enim Perferendis</h2>
+                        <h2 class="lg:w-1/2 mt-1 lg:mt-0 text-xl font-semibold lg:font-bold">Sidebay Studios</h2>
+                    </div>
+                    <p class="font-normal text-lg ml-8 lg:w-2/3 lg:text-3xl">
                         Consequatur quidem unde optio officiis temporibus. Ut blanditiis nisi animi sed ullam numquam
                         dignissimos itaque. Voluptas sit labore voluptates nihil cupiditate non laborum facere ullam.
                         Quia quibusdam dolorum modi qui autem omnis. Nulla perspiciatis harum odit
@@ -108,46 +108,49 @@
                 </div>
             </div>
         </a>
-        <!-- /card-two -->
+        <!-- /SUBSEC card-two -->
 
-        <!-- card-three -->
+        <!-- SUBSEC card-three -->
         <a href="#">
-            <div class="duration-700 my-28 hover:scale-95 hover:text-gray-400 text-[32px]">
+            <div class="duration-700 my-16 lg:my-28 hover:scale-95 hover:text-gray-400 text-[32px]">
                 <img src="./images/card_three.jpg" class="h-full object-cover">
 
                 <div class="flex w-full justify-between pt-5 font-bold">
-                    <h2 class="w-1/2">Moverism Station</h2>
-                    <h2 class="w-1/2">Aimeonair</h2>
-                    <p class="font-normal w-2/3 text-3xl">
+                    <div class="flex flex-col lg:flex-row">
+                        <h2 class="w-1/2 text-xl">Moverism Station</h2>
+                        <h2 class="w-1/2 mt-1 lg:mt-0 text-xl font-semibold lg:font-bold">Aimeonair</h2>
+                    </div>
+                    <p class="font-normal text-lg ml-8 lg:w-2/3 lg:text-3xl">
                         Ut quia et voluptas eaque odit et quis. Exercitationem voluptas sunt veniam nihil sit laudantium
                         illo molestias nobis. Quasi consequuntur nihil magni adipisc
                     </p>
                 </div>
             </div>
         </a>
-        <!-- /card-three -->
+        <!-- /SUBSEC card-three -->
 
-        <!-- button -->
-        <a href="#">
-            <button class="border-2 border-black font-bold px-14 py-4 duration-500 hover:bg-black hover:text-white">See
+        <!-- SUBSEC button -->
+        <a href="./works.html">
+            <button
+                class="border-2 border-black font-bold px-6 py-2 lg:px-14 lg:py-4 duration-500 hover:bg-black hover:text-white">See
                 Everything</button>
         </a>
-        <!-- /button -->
+        <!-- /SUBSEC button -->
     </section>
-    <!-- /cards -->
+    <!-- /SEC cards -->
 
-    <!-- gallery -->
-    <section class="bg-[#ebebeb] p-8 grid grid-cols-3 grid-rows-2 gap-x-8">
-        <!-- gallery-one -->
-        <a href="#">
+    <!-- SEC gallery -->
+    <section class="bg-[#ebebeb] p-8 lg:grid lg:grid-cols-3 lg:grid-rows-2 lg:gap-x-8">
+        <!-- SUBSEC gallery-one -->
+        <a href="./ullam.html">
             <div class="duration-700 hover:scale-95 hover:text-gray-400 text-3xl">
                 <img src="./images/gallery_one.jpg" class="h-full object-cover">
 
                 <div class="flex flex-col w-full justify-between pt-5">
                     <h2 class="font-bold">Ullam</h2>
-                    <h2 class="font-bold text-2xl py-2">by Ashton Lind</h2>
+                    <h2 class="font-semibold lg:font-black text-xl lg:text-2xl py-1 lg:py-2">by Ashton Lind</h2>
                     <p class="text-xl">7 September, 2022</p>
-                    <p class="text-lg font-medium pt-2">
+                    <p class="lg:text-lg text-base lg:font-medium pt-2">
                         Molestiae eveniet quia voluptatum dolor ad pariatur. Incidunt inventore et odio qui quia eaque
                         fugit et quis. Accusamus alias ipsa ea praesentium. Odio a culpa esse. Repudiandae totam
                         consectetur quae repellendus voluptate aut earum architecto qui. Consectetur repellendus ut
@@ -156,18 +159,18 @@
                 </div>
             </div>
         </a>
-        <!-- /gallery-one -->
+        <!-- /SUBSEC gallery-one -->
 
-        <!-- gallery-two -->
-        <a href="#">
-            <div class="duration-700 hover:scale-95 hover:text-gray-400 text-3xl">
+        <!-- SUBSEC gallery-two -->
+        <a href="./iste_a_repudiandae_esse.html">
+            <div class="duration-700 hover:scale-95 hover:text-gray-400 text-3xl mt-8 lg:mt-0">
                 <img src="./images/gallery_two.jpg" class="h-full object-cover">
 
                 <div class="flex flex-col w-full justify-between pt-5">
                     <h2 class="font-bold">Iste A Repudiandae Esse</h2>
-                    <h2 class="font-bold text-2xl py-2">by Ashton Lind</h2>
+                    <h2 class="font-semibold lg:font-bold text-xl lg:text-2xl py-1 lg:py-2">by Ashton Lind</h2>
                     <p class="text-xl">7 September, 2022</p>
-                    <p class="text-lg font-medium pt-2">
+                    <p class="lg:text-lg text-base lg:font-medium pt-2">
                         Nihil dolores natus et. Quaerat dignissimos fugit ut sit blanditiis. Quos cumque accusamus
                         officiis vero quasi aut dolorem quibusdam consectetur. Voluptatum vitae expedita quasi. Sed quis
                         sunt et animi saepe aut harum cupiditate. Minima quo sapiente tenetur delectus culpa non
@@ -175,54 +178,54 @@
                 </div>
             </div>
         </a>
-        <!-- /gallery-two -->
+        <!-- /SUBSEC gallery-two -->
 
-        <!-- gallery-three -->
-        <a href="#">
-            <div class="duration-700 hover:scale-95 hover:text-gray-400 text-3xl">
+        <!-- SUBSEC gallery-three -->
+        <a href="./voluptatibus_fugiat.html">
+            <div class="duration-700 hover:scale-95 hover:text-gray-400 text-3xl mt-8 lg:mt-0">
                 <img src="./images/gallery_three.jpg" class="h-full object-cover">
 
                 <div class="flex flex-col w-full justify-between pt-5">
                     <h2 class="font-bold">Voluptabius Fugiat</h2>
-                    <h2 class="font-bold text-2xl py-2">by Lulu Baumbach</h2>
+                    <h2 class="font-semibold lg:font-bold text-xl lg:text-2xl py-1 lg:py-2">by Lulu Baumbach</h2>
                     <p class="text-xl">7 September, 2022</p>
-                    <p class="text-lg font-medium pt-2">
+                    <p class="lg:text-lg text-base font-medium pt-2">
                         Ab exercitationem cumque enim veritatis voluptates possimus delectus rem rerum. Autem laboriosam
                         quia cum eos est
                     </p>
                 </div>
             </div>
         </a>
-        <!-- /gallery-three -->
+        <!-- /SUBSEC gallery-three -->
 
-        <!-- gallery-four -->
-        <a href="#">
-            <div class="duration-700 hover:scale-95 hover:text-gray-400 text-3xl -translate-y-28 mt-28">
+        <!-- SUBSEC gallery-four -->
+        <a href="./fugiat_quam.html">
+            <div class="duration-700 hover:scale-95 hover:text-gray-400 text-3xl mt-8 lg:-translate-y-28 lg:mt-28">
                 <img src="./images/gallery_four.jpg" class="h-full object-cover">
 
                 <div class="flex flex-col w-full justify-between pt-5">
                     <h2 class="font-bold">Fugiat Quam</h2>
-                    <h2 class="font-bold text-2xl py-2">by Celine Carter</h2>
+                    <h2 class="font-semibold lg:font-bold text-xl lg:text-2xl py-1 lg:py-2">by Celine Carter</h2>
                     <p class="text-xl">7 September, 2022</p>
-                    <p class="text-lg font-medium pt-2">
+                    <p class="lg:text-lg text-base font-medium pt-2">
                         Vel dolores labore sed perspiciatis impedit neque maxime iusto qui. Aut tenetur sed cumque rerum
                         quasi et quam. Sint fugit placeat. In ea inventore ut inventore null
                     </p>
                 </div>
             </div>
         </a>
-        <!-- /gallery-four -->
+        <!-- /SUBSEC gallery-four -->
 
-        <!-- gallery-five -->
-        <a href="#">
-            <div class="duration-700 hover:scale-95 hover:text-gray-400 text-3xl mt-28">
+        <!-- SUBSEC gallery-five -->
+        <a href="./deleniti_voluptatum.html">
+            <div class="duration-700 hover:scale-95 hover:text-gray-400 text-3xl mt-8 lg:mt-28">
                 <img src="./images/gallery_five.jpg" class="h-full object-cover">
 
                 <div class="flex flex-col w-full justify-between pt-5">
                     <h2 class="font-bold">Deleniti Voluptatum</h2>
-                    <h2 class="font-bold text-2xl py-2">by Ashton Lind</h2>
+                    <h2 class="font-semibold lg:font-bold text-xl lg:text-2xl py-1 lg:py-2">by Ashton Lind</h2>
                     <p class="text-xl">7 September, 2022</p>
-                    <p class="text-lg font-medium pt-2">
+                    <p class="lg:text-lg text-base font-medium pt-2">
                         Dignissimos inventore qui voluptates sed quod dolor modi sunt. Sed in aliquid voluptas eum qui
                         dolores. Et ut id quos illum tenetur nam molestiae. Repellendus animi est. Officiis ut
                         voluptates dolorem et. Rem exercitationem esse enim vitae aut. Ea rerum quo tempora repudiandae
@@ -231,18 +234,18 @@
                 </div>
             </div>
         </a>
-        <!-- /gallery-five -->
+        <!-- /SUBSEC gallery-five -->
 
-        <!-- gallery-six -->
-        <a href="#">
-            <div class="duration-700 hover:scale-95 hover:text-gray-400 text-3xl -translate-y-28 mt-28">
+        <!-- SUBSEC gallery-six -->
+        <a href="./nesciunt.html">
+            <div class="duration-700 hover:scale-95 hover:text-gray-400 text-3xl mt-8 lg:-translate-y-28 lg:mt-28">
                 <img src="./images/gallery_six.jpg" class="h-full object-cover">
 
                 <div class="flex flex-col w-full justify-between pt-5">
                     <h2 class="font-bold">Nesciunt</h2>
-                    <h2 class="font-bold text-2xl py-2">by Celine Carter</h2>
+                    <h2 class="font-semibold lg:font-bold text-xl lg:text-2xl py-1 lg:py-2">by Celine Carter</h2>
                     <p class="text-xl">7 September, 2022</p>
-                    <p class="text-lg font-medium pt-2">
+                    <p class="lg:text-lg text-base font-medium pt-2">
                         Cumque qui fugit eius quaerat delectus velit fuga magni. Sit vel quis sit qui voluptas ut.
                         Tempora qui accusantium similique vero aliquid. Qui esse natus asperiores et voluptas officiis.
                         Accusantium ut quaerat aliquid placeat sunt. Iure aut earu
@@ -250,26 +253,27 @@
                 </div>
             </div>
         </a>
-        <!-- /gallery-six -->
+        <!-- /SUBSEC gallery-six -->
 
-        <!-- button -->
-        <a href="#">
-            <button class="border-2 border-black font-bold px-14 py-4 duration-500 hover:bg-black hover:text-white">See
+        <!-- SUBSEC button -->
+        <a href="./thoughts.html">
+            <button
+                class="border-2 border-black font-bold mt-8 lg:mt-0 px-6 py-2 lg:px-14 lg:py-4 duration-500 hover:bg-black hover:text-white">See
                 Everything</button>
         </a>
-        <!-- /button -->
+        <!-- /SUBSEC button -->
 
     </section>
-    <!-- /gallery -->
+    <!-- /SEC gallery -->
 
-    <!-- about -->
+    <!-- SEC about -->
     <section class="bg-[#dbdbdb] p-8">
-        <div class="pt-32 pb-32">
-            <h2 class="font-bold text-6xl">
+        <div class="lg:py-32">
+            <h2 class="font-bold text-2xl lg:text-6xl">
                 You are interested by the Torrens project? <br>
                 Please visit our about page for more
             </h2>
-            <p class="text-2xl pt-4">
+            <p class="lg:text-2xl text-xl py-4 lg:pt-4">
                 Starting from brand development to design application finishing with all things digital marketing to put
                 yourself <br> out there.
             </p>
@@ -277,14 +281,14 @@
 
         <a href="#">
             <button
-                class="border-2 border-black font-bold px-24 py-4 mb-12 duration-500 hover:bg-black hover:text-white">About</button>
+                class="border-2 border-black font-bold px-6 py-2 lg:px-14 lg:py-4 lg:mb-12 duration-500 hover:bg-black hover:text-white">About</button>
         </a>
     </section>
-    <!-- /about -->
+    <!-- /SEC about -->
 
-    <!-- footer -->
-    <footer class="bg-black text-[#e0e0e0] p-8 flex flex-row justify-between items-start">
-        <div class="w-[42%] py-20">
+    <!-- SEC footer -->
+    <footer class="bg-black text-[#e0e0e0] p-8 flex lg:flex-row flex-col lg:justify-between justify-around items-start">
+        <div class="lg:w-[42%] lg:py-20 hidden lg:block">
             <h2 class="text-4xl font-medium">
                 Torrens © by Sidebay.Studio <br>
                 Powered by Webflow <br>
@@ -297,7 +301,7 @@
                 distinctio unde porro est consectetur quam! Optio itaque minima ratione facilis adipisci.
             </p>
 
-            <form class="border-b w-2/3 flex flex-row">
+            <form class="border-b lg:w-2/3 flex flex-row">
                 <input
                     class="form-control bg-transparent text-inherit text-lg placeholder:text-inherit border-none focus:outline-none focus:ring-0"
                     type="text" name="contact" id="contact" placeholder="Enter email" required>
@@ -306,28 +310,28 @@
                     type="submit" value="Join">
             </form>
         </div>
-        <div class="py-20">
+        <div class="lg:py-20">
             <h2 class="text-xl font-semibold uppercase mb-6">options</h2>
 
-            <ul>
-                <li class="mb-5 font-medium duration-500 hover:opacity-50"><a href="#">Get Started</a></li>
-                <li class="mb-5 font-medium duration-500 hover:opacity-50"><a href="#">License</a></li>
-                <li class="mb-5 font-medium duration-500 hover:opacity-50"><a href="#">Style Guide</a></li>
+            <ul class="flex flex-row lg:flex-col">
+                <li class="mb-5 mr-3 lg:mr-0 font-medium duration-500 hover:opacity-50"><a href="#">Get Started</a></li>
+                <li class="mb-5 mr-3 lg:mr-0 font-medium duration-500 hover:opacity-50"><a href="#">License</a></li>
+                <li class="mb-5 mr-3 lg:mr-0 font-medium duration-500 hover:opacity-50"><a href="#">Style Guide</a></li>
                 <li class="font-medium duration-500 hover:opacity-50"><a href="#">Changelog</a></li>
             </ul>
         </div>
-        <div class="py-20 pr-10">
+        <div class="lg:py-20 lg:pr-10 mt-4 lg:mt-0">
             <h2 class="text-xl font-semibold uppercase mb-6">social</h2>
 
-            <ul>
-                <li class="mb-5 font-medium duration-500 hover:opacity-50"><a href="#">Instagram</a></li>
-                <li class="mb-5 font-medium duration-500 hover:opacity-50"><a href="#">Real Life</a></li>
-                <li class="mb-5 font-medium duration-500 hover:opacity-50"><a href="#">YouTube</a></li>
+            <ul class="flex flex-row lg:flex-col">
+                <li class="mb-5 mr-3 lg:mr-0 font-medium duration-500 hover:opacity-50"><a href="#">Instagram</a></li>
+                <li class="mb-5 mr-3 lg:mr-0 font-medium duration-500 hover:opacity-50"><a href="#">Real Life</a></li>
+                <li class="mb-5 mr-3 lg:mr-0 font-medium duration-500 hover:opacity-50"><a href="#">YouTube</a></li>
                 <li class="font-medium duration-500 hover:opacity-50"><a href="#">2493</a></li>
             </ul>
         </div>
     </footer>
-    <!-- /footer -->
+    <!-- /SEC footer -->
 
     <!-- scripts -->
     <script src="https://kit.fontawesome.com/dfc53f140e.js" crossorigin="anonymous"></script>
