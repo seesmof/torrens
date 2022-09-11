@@ -35,7 +35,19 @@ Torrens website made from a template taken from Webflow. Pretty basic, but neat 
 
 - [Live View](https://seesmof.github.io/torrens/)
 
-![Website Page](./img/ACME-seesmof.png)
+![Website Page](./images/Torrens-seesmof.png)
+
+---
+
+![Website Page](./images/Works-seesmof.png)
+
+---
+
+![Website Page](./images/Thoughts-seesmof.png)
+
+---
+
+![Website Page](./images/About-seesmof.png)
 
 ## ⛏️ Built Using <a name = "built_using"></a>
 
